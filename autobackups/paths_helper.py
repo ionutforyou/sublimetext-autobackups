@@ -106,4 +106,3 @@ class PathsHelper(object):
 	def get_backup_filepath(filepath):
 		filename = os.path.split(filepath)[1]
 		return os.path.join(PathsHelper.get_backup_path(filepath), PathsHelper.timestamp_file(filename))
-
